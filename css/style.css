@@ -461,7 +461,10 @@ small{
         visibility: hidden;
     }
 
-    
+    .header{
+        z-index: 10000;
+    }
+
     .splash{
         display: block;
         position: fixed;
