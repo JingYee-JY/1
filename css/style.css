@@ -110,8 +110,6 @@ body {
 }
 
 .gimme_logo {
-    width: auto;
-    height: 10%;
     position: absolute;
     bottom: 0;
     left: 50%;
