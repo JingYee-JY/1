@@ -97,16 +97,25 @@ body {
     background-color: #CE0E2D;
 }
 
-.load-div{
+.load_div{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.glow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+}
 
 .load_image{
-    height: auto;
-    width: 100%;
+    position: relative;
+    height: 300px;
+    width: 200px;
+    z-index: 100;
 }
 
 .gimme_logo {
