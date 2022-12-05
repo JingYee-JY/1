@@ -94,7 +94,7 @@ body {
     height: 100%;
     z-index: 100;
     position: absolute;
-    background: url(../assets/img/background.svg) center;
+    background-color: #CE0E2D;
 }
 
 .load_div{
@@ -103,21 +103,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.glow{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 50%;
-    left: 50%;
-    z-index: 0;
-    transform: translate(-50%, -50%);
-}
 
 .load_image{
     position: relative;
     height: auto;
     width: 200px;
-    z-index: 100;
 }
 
 .gimme_logo {
@@ -476,6 +466,10 @@ small{
         display: block;
         position: fixed;
         width: 100%;
+        width: 100%;
+        height: 100%;
+        background: white;
+        z-index: 10000;
     }
 }
 
